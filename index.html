@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Révision permis</title>
+</head>
+<body id="test">
+    <main>
+        <div>
+            <p>Question <span id="numero-question">x</span></p>
+            <div id="controls">
+                <!--Bouton switch light et dark mode-->
+                <button
+                    id="theme-switcher"
+                    type="button"
+                    data-theme-toggle
+                    aria-label="Change to light theme"
+                >
+                <!--SVG soleil-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" id="soleil">
+                    <g clip-path="url(#clip0_30575_203799)">
+                      <path d="M9.9987 5.83325C7.6987 5.83325 5.83203 7.69992 5.83203 9.99992C5.83203 12.2999 7.6987 14.1666 9.9987 14.1666C12.2987 14.1666 14.1654 12.2999 14.1654 9.99992C14.1654 7.69992 12.2987 5.83325 9.9987 5.83325ZM1.66536 10.8333H3.33203C3.79036 10.8333 4.16536 10.4583 4.16536 9.99992C4.16536 9.54158 3.79036 9.16658 3.33203 9.16658H1.66536C1.20703 9.16658 0.832031 9.54158 0.832031 9.99992C0.832031 10.4583 1.20703 10.8333 1.66536 10.8333ZM16.6654 10.8333H18.332C18.7904 10.8333 19.1654 10.4583 19.1654 9.99992C19.1654 9.54158 18.7904 9.16658 18.332 9.16658H16.6654C16.207 9.16658 15.832 9.54158 15.832 9.99992C15.832 10.4583 16.207 10.8333 16.6654 10.8333ZM9.16536 1.66659V3.33325C9.16536 3.79158 9.54036 4.16658 9.9987 4.16658C10.457 4.16658 10.832 3.79158 10.832 3.33325V1.66659C10.832 1.20825 10.457 0.833252 9.9987 0.833252C9.54036 0.833252 9.16536 1.20825 9.16536 1.66659ZM9.16536 16.6666V18.3333C9.16536 18.7916 9.54036 19.1666 9.9987 19.1666C10.457 19.1666 10.832 18.7916 10.832 18.3333V16.6666C10.832 16.2083 10.457 15.8333 9.9987 15.8333C9.54036 15.8333 9.16536 16.2083 9.16536 16.6666ZM4.99036 3.81658C4.66536 3.49159 4.13203 3.49159 3.81536 3.81658C3.49036 4.14158 3.49036 4.67492 3.81536 4.99158L4.6987 5.87492C5.0237 6.19992 5.55703 6.19992 5.8737 5.87492C6.19036 5.54992 6.1987 5.01658 5.8737 4.69992L4.99036 3.81658ZM15.2987 14.1249C14.9737 13.7999 14.4404 13.7999 14.1237 14.1249C13.7987 14.4499 13.7987 14.9833 14.1237 15.2999L15.007 16.1833C15.332 16.5083 15.8654 16.5083 16.182 16.1833C16.507 15.8583 16.507 15.3249 16.182 15.0083L15.2987 14.1249ZM16.182 4.99158C16.507 4.66658 16.507 4.13325 16.182 3.81658C15.857 3.49159 15.3237 3.49159 15.007 3.81658L14.1237 4.69992C13.7987 5.02492 13.7987 5.55825 14.1237 5.87492C14.4487 6.19159 14.982 6.19992 15.2987 5.87492L16.182 4.99158ZM5.8737 15.2999C6.1987 14.9749 6.1987 14.4416 5.8737 14.1249C5.5487 13.7999 5.01536 13.7999 4.6987 14.1249L3.81536 15.0083C3.49036 15.3333 3.49036 15.8666 3.81536 16.1833C4.14036 16.4999 4.6737 16.5083 4.99036 16.1833L5.8737 15.2999Z" fill="black" fill-opacity="0.56"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_30575_203799">
+                        <rect width="20" height="20" fill="white"/>
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                <!--SVG lune-->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" id="lune">
+                    <path d="M10 2.5C5.85833 2.5 2.5 5.85833 2.5 10C2.5 14.1417 5.85833 17.5 10 17.5C14.1417 17.5 17.5 14.1417 17.5 10C17.5 9.61667 17.4667 9.23333 17.4167 8.86667C16.6 10.0083 15.2667 10.75 13.75 10.75C11.2667 10.75 9.25 8.73333 9.25 6.25C9.25 4.74167 9.99167 3.4 11.1333 2.58333C10.7667 2.53333 10.3833 2.5 10 2.5Z" fill="black" fill-opacity="0.56"/>
+                  </svg>
+                </button>
+            </div>
+        </div>
+        <div>
+            <p id="question1"></p>
+            <details id="container-reponse1">
+                <summary>Voir la réponse</summary>
+                <p id="reponse1"></p>
+                <img src="#" id="img-reponse1">
+            </details>
+        </div>
+        <div>
+            <span>QSER<p id="question2"></p></span>
+            <details id="container-reponse2">
+                <summary>Voir la réponse</summary>
+                <p id="reponse2"></p>
+                <img src="#" id="img-reponse2">
+            </details>
+        </div>
+        <div>
+            <span>Secourisme<p id="question3"></p></span>
+            <details id="container-reponse3">
+                <summary>Voir la réponse</summary>
+                <p id="reponse3"></p>
+                <img id="img-reponse3">
+            </details>
+        </div>
+        <div>
+            <button id="changer-question">Changer de question</button>
+        </div>
+    </main>
+</body>
+<script src="/main.js"></script>
+<script src="/theme-toggle.js"></script>
+</html>

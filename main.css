@@ -1,0 +1,162 @@
+:root {
+    --background: rgb(247,248,249);
+    --background-secondary: rgb(241,242,244);
+    --text-primary: rgb(29,33,37);
+    --text-secondary: rgb(39, 43, 48);
+    --text-disabled: rgb(51, 55, 60);
+    --border: #d6d6d6;
+    --details-background: #f0f0f0;
+    --details-hover-state-background: #ededed;
+}
+
+[data-theme="light"] {
+    --color-bg: rgba(0, 0, 0, 0.04);
+
+    --background: #fff;
+    --background-secondary: #ececec;
+    --text-primary: rgb(29,33,37);
+    --text-secondary: rgb(39, 43, 48);
+    --text-disabled: rgb(51, 55, 60);
+    --border: rgb(220,223,228);
+    --details-background: rgba(9,30,66,0.03);
+    --details-hover-state-background: rgba(9,30,66,0.06);
+    
+    --button-background: #0057B2;
+    --button-background-hover: #0D47A1;
+    --button-border: #1E88E5;
+    --button-border-hover: #0057B2;
+}
+ 
+[data-theme="dark"] {
+    --color-bg: rgba(255, 255, 255, 0.04);
+
+    --background: rgb(29,33,37);
+    --background-secondary: rgb(34,39,43);
+    --text-primary: rgb(240, 240, 240);
+    --text-secondary: rgb(215, 215, 215);
+    --text-disabled: rgb(170, 170, 170);
+    --border: rgb(40,46,51);
+    --details-background: rgba(161,189,217,0.08);
+    --details-hover-state-background: rgba(188,214,240,0.04);
+
+    --button-background: #0057B2;
+    --button-background-hover: #0D47A1;
+    --button-border: #1E88E5;
+    --button-border-hover: #0057B2;
+}
+
+::selection {
+    color: white;
+    background: #2197ff;
+}
+
+body {
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition-duration: 0.250s;
+}
+
+main {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 16px 24px 16px;
+    box-sizing: border-box;
+    color: var(--text-primary);
+    & >div>details>img {
+        margin-top: 12px;
+        width: 250px;
+    }
+    & >div:nth-child(1) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        & >p {
+            margin: unset;
+            margin-block: 0px;
+        }
+    }
+    & >div {
+        width: 100%;
+    }
+    & details {
+        width: calc(100% - 16px);
+        background-color: var(--details-background);
+        border-radius: 4px;
+        padding: 8px;
+        color: var(--text-secondary);
+        & summary {
+            cursor: pointer;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        & >p {
+            margin-block-end: 0px;;
+        }
+    }
+    & details:hover {
+        background-color: var(--details-hover-state-background);
+    }
+    & >div:nth-child(5) {
+        margin-top: 12px;
+    }
+    & #changer-question {
+        all: unset;
+        outline: revert;
+        color: #fff;
+        padding: 8px 12px 8px 12px;
+        background-color: var(--button-background);
+        border: 1px solid var(--button-border);
+        border-radius: 4px;
+        transition: 0.150s ease-in;
+    }
+    & #changer-question:hover {
+        background-color: var(--button-background-hover);
+        border-color: var(--button-border-hover);
+        border-radius: 4px;
+    }
+}
+
+/*Style du switch light et dark mode*/
+#theme-switcher {
+    font-size: 0.8rem;
+    padding: 0.5rem 0.5rem;
+    transition: all 0.250s ease-in-out;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: unset;
+    border: 0rem solid var(--color-fg);
+    & #lune {
+        & >path {
+            fill: #d7d7d7;
+        }
+    }
+    & #soleil {
+        & >path {
+            fill: #313131;
+        }
+    }
+}
+#theme-switcher:hover {
+    background-color: var(--color-bg);
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+  }
