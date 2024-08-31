@@ -108,6 +108,10 @@ main {
             margin-block-end: 0px;;
         }
     }
+    & details[open] summary {
+        border-bottom: 1px solid var(--border);
+        margin-bottom: 1em;
+      }
     & details:hover {
         background-color: var(--details-hover-state-background);
     }

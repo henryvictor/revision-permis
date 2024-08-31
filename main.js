@@ -1,6 +1,6 @@
 numeroQuestion = document.getElementById('numero-question');
 question1 = document.getElementById('question1');
-containerReponse1 = document.getElementById('container-reponse2');
+containerReponse1 = document.getElementById('container-reponse1');
 containerReponse2 = document.getElementById('container-reponse2');
 question2 = document.getElementById('question2');
 reponse1 = document.getElementById('reponse1');
@@ -495,7 +495,7 @@ function choisirQuestion (x) {
                 reponse1.style.display = "none";
             }
             else if (question[2].length == 1 && question[2][0].charAt(0) != "/") {
-                imgReponse1.style.display = none;
+                imgReponse1.style.display = "none";
                 reponse1.style.display = "block";
                 reponse1.innerText = question[2][0];
             }
@@ -551,5 +551,8 @@ pickRandom();
 
 boutonChangerQuestion.addEventListener('click', () => {
     pickRandom();
+    containerReponse1.removeAttribute('open');
+    containerReponse2.removeAttribute('open');
+    containerReponse3.removeAttribute('open');
 });
         
