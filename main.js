@@ -18,7 +18,7 @@ data = [
     [
         1,
         "Montrez la commande de réglage de hauteur des feux.",
-        ["/img/001.jpeg"],
+        ["img/001.jpeg"],
         "Pourquoi doit-on régler la hauteur des feux ?",
         ["Pour ne pas éblouir les autres usagers."],
         "Comment et pourquoi protéger une zone de danger en cas d’accident de la route ?",
@@ -27,7 +27,7 @@ data = [
     [
         2,
         "Montrez où s’effectue le remplissage du produit lave-glace.",
-        ["/img/002.jpeg", "Le candidat ouvre le capot et montre le bocal."],
+        ["img/002.jpeg", "Le candidat ouvre le capot et montre le bocal."],
         "Pourquoi est-il préférable d’utiliser un liquide spécial en hiver ?",
         ["Pour éviter le gel du liquide."],
         "Quels comportements adopter en cas de diffusion du signal d’alerte du Système d’Alerte et d’Information des Populations (SAIP) ?",
@@ -36,7 +36,7 @@ data = [
     [
         3,
         "Mettez le rétroviseur intérieur en position « nuit ». Si le rétroviseur de l’accompagnateur gène la manipulation du dispositif, l’explication suffit.",
-        ["/img/003.jpeg", "Si le véhicule possède un système automatique de mise en position « nuit » du rétroviseur intérieur, le candidat l’indique. Nos 208 ne sont pas équipées de dispositif automatique."],
+        ["img/003.jpeg", "Si le véhicule possède un système automatique de mise en position « nuit » du rétroviseur intérieur, le candidat l’indique. Nos 208 ne sont pas équipées de dispositif automatique."],
         "Quel est l’intérêt de la position nuit ?",
         ["Ne pas être ébloui par les feux du véhicule suiveur."],
         "Comment est composé le signal d’alerte du Système d’Alerte et d’Information des Populations (SAIP) diffusé par les sirènes ?",
@@ -45,7 +45,7 @@ data = [
     [
         4,
         "Contrôlez l’état du flanc sur l’un des pneumatiques.",
-        ["/img/004.jpeg", "En bon état (toute anomalie doit être signalée)."],
+        ["img/004.jpeg", "En bon état (toute anomalie doit être signalée)."],
         "Citez un endroit où l’on peut trouver les pressions préconisées pour les pneumatiques ?",
         ["Elles sont indiquées : – soit sur une plaque sur une portière. – soit dans la notice d’utilisation du véhicule. – soit au niveau de la trappe à carburant."],
         "Sur autoroute, comment indiquer avec précision les lieux de l’accident depuis un téléphone portable ?",
@@ -54,7 +54,7 @@ data = [
     [
         5,
         "Faites fonctionner les essuie-glaces avants du véhicule sur la position la plus rapide.",
-        ["/img/005.jpeg"],
+        ["img/005.jpeg"],
         "Comment détecter leur usure en circulation ?",
         ["En cas de pluie, lorsqu’ils laissent des traces sur le pare brise."],
         "Comment vérifier la respiration d’une victime ?",
@@ -81,7 +81,7 @@ data = [
     [
         8,
         "Montrez où s’effectue le contrôle du niveau du liquide de frein.",
-        ["/img/008.jpeg", "Le candidat montre que le niveau est entre le mini et le maxi. Si le candidat a des difficultés pour ouvrir le capot, l’accompagnateur peut lui indiquer comment procéder."],
+        ["img/008.jpeg", "Le candidat montre que le niveau est entre le mini et le maxi. Si le candidat a des difficultés pour ouvrir le capot, l’accompagnateur peut lui indiquer comment procéder."],
         "Quelle est la conséquence d’un niveau insuffisant du liquide de frein ?",
         ["Une perte d’efficacité du freinage."],
         "En cas de panne ou d’accident, quel équipement de sécurité doit être porté avant de quitter le véhicule ?",
@@ -108,7 +108,7 @@ data = [
     [
         11,
         "Montrez l’indicateur de niveau de carburant.",
-        ["/img/011.jpeg"],
+        ["img/011.jpeg"],
         "Quelles sont les précautions à prendre lors du remplissage du réservoir ?",
         ["Arrêter le moteur, ne pas fumer, ne pas téléphoner."],
         "Quels comportements adopter en présence d’une victime qui ne répond pas et ne réagit pas, mais respire ?",
@@ -117,7 +117,7 @@ data = [
     [
         12,
         "Montrez où s’effectue le remplissage du liquide de refroidissement.",
-        ["/img/012.jpeg", "Le candidat ouvre le capot et montre le bocal."],
+        ["img/012.jpeg", "Le candidat ouvre le capot et montre le bocal."],
         "Quel est le danger si l’on complète le niveau du liquide lorsque le moteur est chaud ?",
         ["Un risque de brûlure."],
         "Comment arrêter une hémorragie ?",
@@ -126,7 +126,7 @@ data = [
     [
         13,
         "Actionnez le dégivrage de la lunette arrière et montrez le voyant.",
-        ["/img/013.png"],
+        ["img/013.png"],
         "Quelle peut être la conséquence d’une panne de dégivrage de la lunette arrière ?",
         ["Une insuffisance ou une absence de visibilité vers l’arrière."],
         "Hors autoroute ou endroit dangereux, en cas de panne ou d’accident, où doit être placé le triangle de pré-signalisation ?",
@@ -135,7 +135,7 @@ data = [
     [
         14,
         "Contrôlez l’état, la propreté et le fonctionnement de tous les clignotants côté trottoir.",
-        ["/img/014.png", "Vérification des clignotants: propres, en bon état et fonctionnent (toute anomalie doit être signalée)."],
+        ["img/014.png", "Vérification des clignotants: propres, en bon état et fonctionnent (toute anomalie doit être signalée)."],
         "Quelle est la signification d’un clignotement plus rapide ?",
         ["Non fonctionnement de l’une des ampoules."],
         "Quelles sont les conditions pour réaliser le dégagement d’urgence d’une victime en présence d’un danger réel, immédiat et non contrôlable ?",
@@ -144,7 +144,7 @@ data = [
     [
         15,
         "Montrez le voyant d’alerte signalant une pression insuffisante d’huile dans le moteur.",
-        ["/img/015.png"],
+        ["img/015.png"],
         "Quelles sont les conditions à respecter pour contrôler le niveau d’huile ?",
         ["Moteur froid et sur un terrain plat."],
         "Quelles sont les trois informations à transmettre aux services de secours ?",
@@ -154,7 +154,7 @@ data = [
     [
         16,
         "Contrôlez l’état, la propreté et le fonctionnement du ou des feux de brouillard arrière.",
-        ["/img/016bis.jpeg", "Vérification des feux, propres,en bon état et fonctionnent (toute anomalie doit être signalée)."],
+        ["img/016bis.jpeg", "Vérification des feux, propres,en bon état et fonctionnent (toute anomalie doit être signalée)."],
         "Dans quels cas les utilise-t-on ?",
         ["Par temps de brouillard et neige."],
         "Par quels moyens doit être réalisée l’alerte des secours ?",
@@ -181,7 +181,7 @@ data = [
     [
         19,
         "Montrez la commande de réglage du volant.",
-        ["/img/019.jpeg", "Le candidat montre l’emplacement. Il ne lui est pas demandé de changer son réglage."],
+        ["img/019.jpeg", "Le candidat montre l’emplacement. Il ne lui est pas demandé de changer son réglage."],
         "Pourquoi est-il important de bien régler son volant ?",
         ["Citez deux exemples. – Le confort de conduite. – L’accessibilité aux commandes. – La visibilité du tableau de bord. – L’efficacité des airbags."],
         "Dans quelle situation peut-on déplacer une victime ?",
@@ -190,7 +190,7 @@ data = [
     [
         20,
         "Contrôlez l’état, la propreté et le fonctionnement des feux de route.",
-        ["/img/020bis.jpeg", "Vérification des feux, propres, en bon état et fonctionnent (toute anomalie doit être signalée)."],
+        ["img/020bis.jpeg", "Vérification des feux, propres, en bon état et fonctionnent (toute anomalie doit être signalée)."],
         "Citez un cas d’utilisation de l’appel lumineux.",
         ["– Pour avertir de son approche. – En cas de danger. – A la place de l’avertisseur sonore."],
         "En cas de panne ou d’accident, quel équipement de sécurité doit être porté avant de quitter le véhicule ?",
@@ -199,7 +199,7 @@ data = [
     [
         21,
         "Positionnez la commande pour diriger l’air vers le pare-brise.",
-        ["/img/021.jpeg"],
+        ["img/021.jpeg"],
         "Citez deux éléments complémentaires permettant un désembuage efficace.",
         ["– La commande de vitesse de ventilation. – La commande d’air chaud. – La climatisation."],
         "Quel est l’objectif du Signal d’Alerte et d’Information des Populations (SAIP) ?",
@@ -208,7 +208,7 @@ data = [
     [
         22,
         "Montrez où doit s’effectuer le contrôle du niveau d’huile moteur.",
-        ["/img/022.jpeg", "Le candidat montre la jauge. Pas de manipulation exigée."],
+        ["img/022.jpeg", "Le candidat montre la jauge. Pas de manipulation exigée."],
         "Quel est le principal risque d’un manque d’huile moteur ?",
         ["Un risque de détérioration ou de casse du moteur."],
         "Comment est diffusée l’alerte émise par le Signal d’Alerte et d’Information aux Populations (SAIP) ?",
@@ -217,7 +217,7 @@ data = [
     [
         23,
         "Montrez le voyant d’alerte signalant un défaut de batterie.",
-        ["/img/023.png"],
+        ["img/023.png"],
         "Qu’est-ce qui peut provoquer la décharge de la batterie, moteur éteint ?",
         ["Les feux ou accessoires électriques en fonctionnement."],
         "A partir de quel âge peut-on suivre une formation aux premiers secours ?",
@@ -226,7 +226,7 @@ data = [
     [
         24,
         "Montrez l’emplacement de la batterie du véhicule.",
-        ["/img/024.jpeg"],
+        ["img/024.jpeg"],
         "Quelle est la solution en cas de panne de batterie pour démarrer le véhicule sans le déplacer ?",
         ["Brancher une deuxième batterie en parallèle (ou les « + » ensemble et les « – » ensemble) ou la remplacer."],
         "Pourquoi faut-il pratiquer immédiatement une réanimation cardio-pulmonaire sur une victime en arrêt cardiaque ?",
@@ -235,7 +235,7 @@ data = [
     [
         25,
         "De quelle couleur est le voyant qui indique une défaillance du système de freinage ?",
-        ["/img/025.png"],
+        ["img/025.png"],
         "Quel est le risque de circuler avec un frein de parking mal desserré ?",
         ["Une dégradation du système de freinage."],
         "Hors autoroute ou endroit dangereux, en cas de panne ou d’accident, où doit être placé le triangle de pré-signalisation ?",
@@ -244,7 +244,7 @@ data = [
     [
         26,
         "Contrôlez l’état, la propreté et le fonctionnement des feux de croisement.",
-        ["/img/026.jpeg"],
+        ["img/026.jpeg"],
         "Quelles sont les conséquences d’un mauvais réglage de ces feux ?",
         ["Une mauvaise vision vers l’avant et un risque d’éblouissement des autres usagers."],
         "Dans quelle situation peut-on déplacer une victime ?",
@@ -253,7 +253,7 @@ data = [
     [
         27,
         "Montrez le voyant d’alerte signalant une température trop élevée du liquide de refroidissement.",
-        ["/img/027bis.jpeg", "Le voyant rouge accolé à la jauge de température moteur."],
+        ["img/027bis.jpeg", "Le voyant rouge accolé à la jauge de température moteur."],
         "Quelle est la conséquence d’une température trop élevée de ce liquide ?",
         ["Une surchauffe ou une casse moteur."],
         "Lors d’un appel avec les services de secours, pourquoi devez-vous attendre que votre correspondant vous autorise à raccrocher ?",
@@ -262,7 +262,7 @@ data = [
     [
         28,
         "Vérifiez l’état et la propreté des dispositifs réfléchissants.",
-        ["/img/028.jpeg", "Vérification des dispositifs, propres et en bon état (toute anomalie doit être signalée)."],
+        ["img/028.jpeg", "Vérification des dispositifs, propres et en bon état (toute anomalie doit être signalée)."],
         "Quelle est l’utilité des dispositifs réfléchissants ?",
         ["Rendre visible le véhicule la nuit."],
         "A quel moment pouvez-vous mettre fin à un appel avec les secours ?",
@@ -271,7 +271,7 @@ data = [
     [
         29,
         "Montrez le voyant signalant la mauvaise fermeture d’une portière.",
-        ["/img/029.png"],
+        ["img/029.png"],
         "Quelle précaution dois-je prendre pour que les enfants installés à l’arrière ne puissent pas ouvrir leur portière ?",
         ["Actionner la sécurité enfant sur les deux portières arrière."],
         "Citez les trois manières d’évaluer l’état de conscience d’une victime.",
@@ -280,7 +280,7 @@ data = [
     [
         30,
         "Contrôlez l’état, la propreté et le fonctionnement des feux de position à l’avant et à l’arrière du véhicule.",
-        ["/img/030.jpeg", "Vérification des feux, propres, en bon état et fonctionnent (toute anomalie doit être signalée)."],
+        ["img/030.jpeg", "Vérification des feux, propres, en bon état et fonctionnent (toute anomalie doit être signalée)."],
         "Par temps clair, à quelle distance doivent-ils être visibles ?",
         ["A 150 mètres."],
         "Quels sont les risques pour une personne en perte de connaissance qui est allongée sur le dos ?",
@@ -289,7 +289,7 @@ data = [
     [
         31,
         "Actionnez les feux de détresse.",
-        ["/img/031.jpeg"],
+        ["img/031.jpeg"],
         "Quand les utilise-t-on ? En cas de panne, d’accident ou de ralentissement important.",
         ["A 150 mètres."],
         "Quels comportements adopter en cas de diffusion du signal d’alerte du Système d’Alerte et d’Information des Populations (SAIP) ?",
@@ -298,7 +298,7 @@ data = [
     [
         32,
         "Sur le flanc d’un pneumatique, désignez le repère du témoin d’usure de la bande de roulement.",
-        ["/img/032ter.jpeg", "TWI ou logo Michelin ou triangle"],
+        ["img/032ter.jpeg", "TWI ou logo Michelin ou triangle"],
         "Qu’est-ce que l’aquaplanage, et quelle peut être sa conséquence ?",
         ["La présence d’un film d’eau entre le pneumatique et la chaussée pouvant entraîner une perte de contrôle du véhicule."],
         "Si un dégagement d’urgence de la victime est nécessaire, où doit- elle être déplacée ?",
@@ -307,7 +307,7 @@ data = [
     [
         33,
         "Montrez la commande permettant d’actionner le régulateur de vitesse.",
-        ["/img/033.jpeg"],
+        ["img/033.jpeg"],
         "Sans actionner la commande du régulateur, comment le désactiver rapidement ?",
         ["En appuyant sur la pédale de frein ou d’embrayage."],
         "Sur autoroute, comment indiquer avec précision les lieux de l’accident depuis un téléphone portable ?",
@@ -316,7 +316,7 @@ data = [
     [
         34,
         "Ouvrez la trappe à carburant et/ou vérifiez la bonne fermeture du bouchon.",
-        ["/img/034.jpg"],
+        ["img/034.jpg"],
         "Quelles sont les précautions à prendre lors du remplissage du réservoir ?",
         ["Arrêter le moteur, ne pas fumer, ne pas téléphoner."],
         "Pourquoi l’alerte auprès des services de secours doit-elle être rapide et précise ?",
@@ -325,7 +325,7 @@ data = [
     [
         35,
         "Sans l’actionner, montrez la commande de l’avertisseur sonore.",
-        ["/img/035.webp"],
+        ["img/035.webp"],
         "Dans quel cas peut-on utiliser l’avertisseur sonore en agglomération ?",
         ["En cas de danger immédiat."],
         "Pourquoi ne faut-il pas laisser une personne en perte de connaissance allongée sur le dos ?",
@@ -334,7 +334,7 @@ data = [
     [
         36,
         "Montrez où s’effectue le remplissage de l’huile moteur.",
-        ["/img/036.jpeg", "Le candidat montre le bouchon de remplissage."],
+        ["img/036.jpeg", "Le candidat montre le bouchon de remplissage."],
         "Quel est le risque d’un manque d’huile moteur ?",
         ["Un risque de détérioration ou de casse du moteur."],
         "L’utilisation d’un Défibrillateur Automatisé (DAE) sur une victime qui n’est pas en arrêt cardiaque présente-t-elle un risque ?",
@@ -343,7 +343,7 @@ data = [
     [
         37,
         "Montrez la commande permettant de désactiver l’airbag du passager avant. Le bouton rouge se situe dans la boite à gant.",
-        ["/img/037.jpeg", "Le bouton rouge se situe dans la boite à gant."],
+        ["img/037.jpeg", "Le bouton rouge se situe dans la boite à gant."],
         "Dans quelle situation doit-on le désactiver ?",
         ["Lors du transport d’un enfant à l’avant dans un siège auto, dos à la route."],
         "Quelles sont les conditions pour réaliser le dégagement d’urgence d’une victime en présence d’un danger réel, immédiat et non contrôlable ?",
@@ -361,7 +361,7 @@ data = [
     [
         39,
         "Montrez le voyant signalant l’absence de bouclage de la ceinture de sécurité du conducteur.",
-        ["/img/039.png"],
+        ["img/039.png"],
         "En règle générale, à partir de quel âge un enfant peut-il être installé sur le siège passager avant du véhicule ?",
         ["10 ans."],
         "Comment est composé le signal d’alerte du Système d’Alerte et d’Information des Populations (SAIP) diffusé par les sirènes ?",
@@ -388,7 +388,7 @@ data = [
     [
         42,
         "Indiquez où se situe la sécurité enfant sur l’une des portières à l’arrière du véhicule.",
-        ["/img/042.jpeg"],
+        ["img/042.jpeg"],
         "Si la sécurité enfant est enclenchée, est-il possible d’ouvrir la portière arrière depuis l’extérieur ?",
         ["Oui."],
         "Quels sont les risques pour une personne victime d’une hémorragie ?",
@@ -397,7 +397,7 @@ data = [
     [
         43,
         "Allumez le(s) feu(x) de brouillard arrière(s) et montrez le voyant correspondant.",
-        ["/img/043bis.jpeg"],
+        ["img/043bis.jpeg"],
         "Pouvez-vous les utiliser par forte pluie ?",
         ["Non."],
         "Quels sont les signes d’un arrêt cardiaque ?",
@@ -410,12 +410,12 @@ data = [
         "Quelles sont leurs deux utilités ?",
         ["– Éclairer la zone de recul la nuit. – Avertir les autres usagers de la manœuvre."],
         "Qu’est ce qu’un défibrillateur automatisé externe (DAE) ?",
-        ["/img/044.jpeg", "C’est un appareil qui peut permettre de rétablir une activité cardiaque normale à une victime en arrêt cardiaque."]
+        ["img/044.jpeg", "C’est un appareil qui peut permettre de rétablir une activité cardiaque normale à une victime en arrêt cardiaque."]
     ],
     [
         45,
         "Montrez comment régler la hauteur de l’appui-tête du siège conducteur.",
-        ["/img/045.webp"],
+        ["img/045.webp"],
         "Quelle est son utilité ?",
         ["Permet de retenir le mouvement de la tête en cas de choc et de limiter les blessures."],
         "Par quels moyens doit être réalisée l’alerte des secours ?",
@@ -434,7 +434,7 @@ data = [
     [
         47,
         "De quelle couleur est le voyant qui indique au conducteur que le feu de brouillard arrière est allumé ?",
-        ["/img/047.png"],
+        ["img/047.png"],
         "Quelle est la différence entre un voyant orange et un voyant rouge ?",
         ["– Rouge : Une anomalie de fonctionnement ou un danger. – Orange : un élément important."],
         "Qu’est ce qu’un arrêt cardiaque ?",
@@ -443,7 +443,7 @@ data = [
     [
         48,
         "Ouvrez et refermez le capot, puis vérifiez sa bonne fermeture.",
-        ["/img/048.jpeg"],
+        ["img/048.jpeg"],
         "En roulant, quel est le risque d’une mauvaise fermeture du capot ?",
         ["Un risque d’ouverture du capot pouvant entraîner un accident."],
         "Quel est le risque principal d’un arrêt cardiaque sans intervention des secours ?",
@@ -452,7 +452,7 @@ data = [
     [
         49,
         "Montrez la commande de recyclage de l’air.",
-        ["/img/049.jpeg"],
+        ["img/049.jpeg"],
         "Quel peut être le risque de maintenir le recyclage de l’air de manière prolongée ?",
         ["Un risque de mauvaise visibilité par l’apparition de buée sur les surfaces vitrées."],
         "Quels sont les risques pour une personne en perte de connaissance qui est allongée sur le dos ?",
@@ -461,7 +461,7 @@ data = [
     [
         50,
         "Montrez l’orifice de remplissage du produit lave-glace.",
-        ["/img/050.jpeg"],
+        ["img/050.jpeg"],
         "Quel est le principal risque d’une absence de liquide lave-glace ?",
         ["Une mauvaise visibilité."],
         "Pourquoi faut-il pratiquer immédiatement une réanimation cardio-pulmonaire sur une victime en arrêt cardiaque ?",
