@@ -489,12 +489,12 @@ function choisirQuestion (x) {
                 reponse1.style.display = "block";
                 reponse1.innerText = question[2][1];
             }
-            else if (question[2].length == 1 && question[2][0].charAt(0) == "/") {
+            else if (question[2].length == 1 && question[2][0].charAt(0) == ".") {
                 imgReponse1.src = question[2][0];
                 reponse1.innerText = "";
                 reponse1.style.display = "none";
             }
-            else if (question[2].length == 1 && question[2][0].charAt(0) != "/") {
+            else if (question[2].length == 1 && question[2][0].charAt(0) != ".") {
                 imgReponse1.style.display = "none";
                 reponse1.style.display = "block";
                 reponse1.innerText = question[2][0];
@@ -510,13 +510,13 @@ function choisirQuestion (x) {
                 reponse2.style.display = "block";
                 reponse2.innerText = question[4][1];
             }
-            else if (question[4].length == 1 && question[4][0].charAt(0) == "/") {
+            else if (question[4].length == 1 && question[4][0].charAt(0) == ".") {
                 imgReponse2.style.display = "block";
                 imgReponse2.src = question[4][0];
                 reponse2.innerText = "";
                 reponse2.style.display = "none";
             }
-            else if (question[4].length == 1 && question[4][0].charAt(0) != "/") {
+            else if (question[4].length == 1 && question[4][0].charAt(0) != ".") {
                 imgReponse2.style.display = "none";
                 reponse2.style.display = "block";
                 reponse2.innerText = question[4][0];
