@@ -473,6 +473,9 @@ data = [
 ]
 
 function naviguerQuestions(x) {
+    containerReponse1.removeAttribute('open');
+    containerReponse2.removeAttribute('open');
+    containerReponse3.removeAttribute('open');
     choisirQuestion(x);
 }
 
