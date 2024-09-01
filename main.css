@@ -171,12 +171,12 @@ main {
     border: 0rem solid var(--color-fg);
     & #lune {
         & >path {
-            fill: #d7d7d7;
+            fill: #313131;
         }
     }
     & #soleil {
         & >path {
-            fill: #313131;
+            fill: #d7d7d7;
         }
     }
 }
