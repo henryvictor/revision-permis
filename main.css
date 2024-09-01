@@ -1,4 +1,4 @@
-:root {
+/*:root {
     --background: rgb(247,248,249);
     --background-secondary: rgb(241,242,244);
     --text-primary: rgb(29,33,37);
@@ -7,7 +7,7 @@
     --border: #d6d6d6;
     --details-background: #f0f0f0;
     --details-hover-state-background: #ededed;
-}
+}*/
 
 [data-theme="light"] {
     --color-bg: rgba(0, 0, 0, 0.04);
@@ -16,7 +16,7 @@
     --background-secondary: #ececec;
     --text-primary: rgb(29,33,37);
     --text-secondary: rgb(39, 43, 48);
-    --text-disabled: rgb(51, 55, 60);
+    --text-disabled: rgb(77, 81, 86);
     --border: rgb(220,223,228);
     --details-background: rgba(9,30,66,0.03);
     --details-hover-state-background: rgba(9,30,66,0.06);
@@ -68,7 +68,7 @@ main {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 24px;
+    gap: 32px;
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 8px 16px 24px 16px;
@@ -94,8 +94,17 @@ main {
             justify-content: flex-end;
         }
     }
+    & p:has(>span) {
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+    }
     & >div {
         width: 100%;
+        & .type-question {
+            color: var(--text-disabled);
+            opacity: 0.8;
+            font-size: 0.8rem;
+        }
     }
     & details {
         width: calc(100% - 16px);
@@ -127,6 +136,7 @@ main {
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
+        flex-wrap: wrap;
         gap: 16px;
         & >a {
             font-size: 0.8rem;
