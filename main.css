@@ -170,12 +170,16 @@ main {
     background-color: unset;
     border: 0rem solid var(--color-fg);
     & #lune {
+        color: #a5a5a5;
         & >path {
-            fill: #8e8e8e;
+            fill: currentColor;
+            fill: #b3b3b3;
         }
     }
     & #soleil {
+        color: #999999;
         & >path {
+            fill: currentColor;
             fill: #d7d7d7;
         }
     }
