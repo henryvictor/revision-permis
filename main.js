@@ -517,6 +517,16 @@ boutonQuestionSuivante.addEventListener('click', () => {
 function pickRandom() {
     x = (Math.floor(Math.random() * data.length));
     choisirQuestion(x);
+    if (x != 0 || x != data.length) {
+        boutonQuestionPrecedente.removeAttribute("disabled");
+        boutonQuestionSuivante.removeAttribute("disabled");
+    }
+    if (x == 0) {
+        boutonQuestionPrecedente.setAttribute("disabled", true);
+    }
+    if (x == (data.length - 1)) {
+        boutonQuestionSuivante.setAttribute("disabled", true);
+    }
 }
 
 function choisirQuestion (x) {
