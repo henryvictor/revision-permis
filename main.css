@@ -87,6 +87,12 @@ main {
             margin: unset;
             margin-block: 0px;
         }
+        & #controls {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+        }
     }
     & >div {
         width: 100%;
@@ -117,6 +123,15 @@ main {
     }
     & >div:nth-child(5) {
         margin-top: 12px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 16px;
+        & >a {
+            font-size: 0.8rem;
+            color: var(--text-disabled);
+        }
     }
     & #changer-question {
         all: unset;
