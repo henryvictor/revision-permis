@@ -485,6 +485,7 @@ function choisirQuestion (x) {
             question1.innerText = question[1];
 
             if (question[2].length == 2) {
+                imgReponse1.style.display = "block";
                 imgReponse1.src = question[2][0];
                 reponse1.style.display = "block";
                 reponse1.innerText = question[2][1];
