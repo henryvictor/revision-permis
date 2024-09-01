@@ -5,15 +5,19 @@
 * Fall back to light mode.
 */
 
+faviconTag = document.getElementById('favicon-tag');
+
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
     if (localStorageTheme !== null) {
       return localStorageTheme;
     }
   
     if (systemSettingDark.matches) {
+      faviconTag.setAttribute("href", "./img/favicon-dark.svg");
       return "dark";
     }
-  
+    
+    faviconTag.setAttribute("href", "./img/favicon-light.svg");
     return "light";
   }
   
