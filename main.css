@@ -35,7 +35,7 @@
     --text-primary: rgb(240, 240, 240);
     --text-secondary: rgb(215, 215, 215);
     --text-disabled: rgb(170, 170, 170);
-    --border: rgb(40,46,51);
+    --border: rgb(60, 67, 73);
     --details-background: rgba(161,189,217,0.08);
     --details-hover-state-background: rgba(188,214,240,0.04);
 
@@ -125,7 +125,7 @@ main {
     }
     & details[open] summary {
         border-bottom: 1px solid var(--border);
-        margin-bottom: 1em;
+        padding-bottom: 0.7em;
       }
     & details:hover {
         background-color: var(--details-hover-state-background);
