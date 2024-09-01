@@ -1,17 +1,20 @@
-numeroQuestion = document.getElementById('numero-question');
-question1 = document.getElementById('question1');
-containerReponse1 = document.getElementById('container-reponse1');
-containerReponse2 = document.getElementById('container-reponse2');
-question2 = document.getElementById('question2');
-reponse1 = document.getElementById('reponse1');
-imgReponse1 = document.getElementById('img-reponse1');
-reponse2 = document.getElementById('reponse2');
-imgReponse2 = document.getElementById('img-reponse2');
-boutonChangerQuestion = document.getElementById('changer-question');
-question3 = document.getElementById('question3');
-imgReponse3 = document.getElementById('img-reponse3');
-reponse3 = document.getElementById('reponse3');
-containerReponse3 = document.getElementById('container-reponse3');
+var numeroQuestion = document.getElementById('numero-question');
+const question1 = document.getElementById('question1');
+const containerReponse1 = document.getElementById('container-reponse1');
+const containerReponse2 = document.getElementById('container-reponse2');
+const question2 = document.getElementById('question2');
+const reponse1 = document.getElementById('reponse1');
+const imgReponse1 = document.getElementById('img-reponse1');
+const reponse2 = document.getElementById('reponse2');
+const imgReponse2 = document.getElementById('img-reponse2');
+const boutonChangerQuestion = document.getElementById('changer-question');
+const question3 = document.getElementById('question3');
+const imgReponse3 = document.getElementById('img-reponse3');
+const reponse3 = document.getElementById('reponse3');
+const containerReponse3 = document.getElementById('container-reponse3');
+
+const boutonQuestionPrecedente = document.getElementById('question-precedente');
+const boutonQuestionSuivante = document.getElementById('question-suivante');
 
 
 data = [
@@ -469,6 +472,48 @@ data = [
     ],
 ]
 
+function naviguerQuestions(x) {
+    choisirQuestion(x);
+}
+
+function derniereQuestion() {
+    let currentIndex = parseInt(numeroQuestion.innerText) - 1;
+    if (currentIndex != 0) {
+        naviguerQuestions(currentIndex - 1);
+        boutonQuestionSuivante.removeAttribute("disabled");
+        currentIndex = parseInt(numeroQuestion.innerText) - 1;
+        if (currentIndex == 0) {
+            boutonQuestionPrecedente.setAttribute("disabled", true);
+        }
+    }
+    if (currentIndex == 0) {
+        boutonQuestionPrecedente.setAttribute("disabled", true);
+    }
+}
+
+boutonQuestionPrecedente.addEventListener('click', () => {
+    derniereQuestion();
+});
+
+function prochaineQuestion() {
+    let currentIndex = parseInt(numeroQuestion.innerText) - 1;
+    if (currentIndex != (data.length)) {
+        naviguerQuestions(currentIndex + 1);
+        boutonQuestionPrecedente.removeAttribute("disabled");
+        currentIndex = parseInt(numeroQuestion.innerText) - 1;
+        if (currentIndex == (data.length - 1)) {
+            boutonQuestionSuivante.setAttribute("disabled", true);
+        }
+    }
+    if (currentIndex == (data.length)) {
+        boutonQuestionSuivante.setAttribute("disabled", true);
+    }
+}
+
+boutonQuestionSuivante.addEventListener('click', () => {
+    prochaineQuestion();
+});
+
 function pickRandom() {
     x = (Math.floor(Math.random() * data.length));
     choisirQuestion(x);
@@ -549,7 +594,9 @@ function choisirQuestion (x) {
     }
 }
 
-pickRandom();
+/*pickRandom();*/
+naviguerQuestions(0);
+boutonQuestionPrecedente.setAttribute("disabled", true);
 
 boutonChangerQuestion.addEventListener('click', () => {
     pickRandom();
