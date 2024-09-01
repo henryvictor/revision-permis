@@ -470,6 +470,456 @@ data = [
         "Pourquoi faut-il pratiquer immédiatement une réanimation cardio-pulmonaire sur une victime en arrêt cardiaque ?",
         ["Car les lésions du cerveau surviennent dès les premières minutes."]
     ],
+    [
+        51,
+        "Allumez les feux de route et montrez le voyant correspondant.",
+        ["./img/051bis.jpeg"],
+        "Quel est le risque de maintenir les feux de route lors d’un croisement avec d’autres usagers ?",
+        ["Un risque d’éblouissement des autres usagers."],
+        "Quel est l’objectif du Signal d’Alerte et d’Information des Populations (SAIP) ?",
+        ["Avertir la population d’un danger imminent ou qu’un événement grave est en train de se produire."]
+    ],
+    [
+        52,
+        "Vérifiez l’état, la propreté et le fonctionnement des feux diurnes.",
+        ["Vérification des feux, propres, en bon état et qui fonctionnent (toute anomalie doit être signalée)."],
+        "Quelle est leur utilité ?",
+        ["Rendre le véhicule plus visible le jour."],
+        "A quel moment pouvez-vous mettre fin à un appel avec les secours ?",
+        ["Uniquement lorsque notre correspondant nous invite à le faire."]
+    ],
+    [
+        53,
+        "Vérifiez la présence du constat amiable dans le véhicule.",
+        ["Present dans la pochette, dans la boite à gant."],
+        "En cas d’accident, dans quel délai doit-il être transmis à l’assureur ?",
+        ["5 jours."],
+        "Quel est le risque principal d’un arrêt cardiaque sans intervention des secours ?",
+        ["La mort de la victime qui survient en quelques minutes."]
+    ],
+    [
+        54,
+        "Vérifiez la présence du triangle de pré-signalisation.",
+        ["Il est présent dans le coffre."],
+        "Utilise-t-on le triangle de pré- signalisation sur autoroute ?",
+        ["Non."],
+        "Quel comportement doit-on adopter en présence d’une victime en arrêt cardiaque ?",
+        ["– ALERTER: alerter immédiatement les secours. – MASSER: pratiquer une réanimation cardio-pulmonaire. – DEFIBRILLER: utiliser un défibrillateur automatique (DAE) si possible."]
+    ],
+    [
+        55,
+        "De quelle couleur est le voyant qui indique une défaillance du système de freinage.",
+        ["./img/055.png", "(identique au frein à main)."],
+        "Quel est le risque de circuler avec un frein de parking mal desserré ?",
+        ["Une dégradation du système de freinage."],
+        "Comment arrêter une hémorragie ?",
+        ["En appuyant fortement sur l’endroit qui saigne avec les doigts ou avec la paume de la main en mettant un tissu propre sur la plaie."]
+    ],
+    [
+        56,
+        "Montrez où s’effectue le changement d’une ampoule à l’avant du véhicule.",
+        ["./img/056.png"],
+        "Quelles sont les conséquences en cas de panne d’un feu de croisement ?",
+        ["Une mauvaise visibilité et le risque d’être confondu avec un deux roues."],
+        "Citez les trois manières d’évaluer l’état de conscience d’une victime ?",
+        ["– Lui poser des questions simples (« comment ça va ? », « vous m’entendez ? »). – Lui secouer doucement les épaules. – Lui prendre la main en lui demandant d’exécuter un geste simple (« serrez-moi la main »)."]
+    ],
+    [
+        57,
+        "Si le véhicule en est équipé, montrez la commande du limiteur de vitesse.",
+        ["./img/057.jpeg"],
+        "Quelle est l’utilité d’un limiteur de vitesse ?",
+        ["Ne pas dépasser la vitesse programmée par le conducteur."],
+        "Quels sont les numéros d’urgence à appeler ?",
+        ["– Le 18, numéro d’appel des sapeurs-pompiers. – Le 15, numéro d’appel de SAMU. – Le 112, numéro de téléphone réservé aux appels d’urgence et valide dans l’ensemble de l’Union Européenne."]
+    ],
+    [
+        58,
+        "Montrez où s’effectue le changement d’une ampoule à l’arrière du véhicule.",
+        ["./img/058.jpeg"],
+        "Quelles sont les conséquences en cas de panne d’un feu de position arrière ?",
+        ["Être mal vu et un risque de collision."],
+        "Comment est diffusée l’alerte émise par le Signal d’Alerte et d’Information aux Populations (SAIP) ?",
+        ["Grâce aux sirènes, aux médias tels que Radio France et France Télévision ou encore grâce à l’application SAIP."]
+    ],
+    [
+        59,
+        "Faites fonctionner l’essuie-glace arrière du véhicule.",
+        ["./img/059.jpeg"],
+        "Pour une bonne visibilité vers l’arrière, en plus de l’utilisation de l’essuie-glace, quelle commande pouvez-vous actionner par temps de pluie ?",
+        ["La commande de désembuage arrière. Le terme dégivrage peut remplacer celui de désembuage."],
+        "Quels comportements adopter en présence d’une victime qui ne répond pas et ne réagit pas, mais respire ?",
+        ["– La placer en position stable sur le côté ou position latérale de sécurité. – Alerter les secours. – Surveiller la respiration de la victime jusqu’à l’arrivée des secours."]
+    ],
+    [
+        60,
+        "Ouvrez et refermez le coffre, puis vérifiez sa bonne fermeture.",
+        ["./img/060.jpeg"],
+        "Lorsque vous transportez un poids important dans le coffre, quelles sont les précautions à prendre en ce qui concerne les pneumatiques et l’éclairage avant ?",
+        ["Augmenter la pression des pneumatiques et régler la hauteur des feux avants."],
+        "L’utilisation d’un Défibrillateur Automatisé (DAE) sur une victime qui n’est pas en arrêt cardiaque présente-t-elle un risque ?",
+        ["Non car le défibrillateur se déclenche uniquement quand la victime est en arrêt cardiaque."]
+    ],
+    [
+        61,
+        "Indiquez où se situent les attaches de type Isofix dans le véhicule.",
+        ["./img/061.jpeg", "Les attaches de type Isofix sont obligatoires sur les véhicules neufs depuis 2011."],
+        "Peut-on fixer tous les sièges enfant sur des attaches de type Isofix ?",
+        ["Non (uniquement ceux compatibles avec ce type d’attache)."],
+        "Comment vérifier la respiration d’une victime ?",
+        ["Regarder si le ventre et la poitrine se soulèvent et sentir de l’air à l’expiration."]
+    ],
+    [
+        62,
+        "Ouvrez et refermez le coffre, puis vérifiez sa bonne fermeture.",
+        ["./img/060.jpeg"],
+        "Quels sont les risques de circuler avec des objets sur la plage arrière ?",
+        ["Une mauvaise visibilité vers l’arrière et un risque de projection en cas de freinage brusque ou de choc."],
+        "Qu’est ce qu’une hémorragie ?",
+        ["C’est une perte de sang prolongée qui ne s’arrête pas. Elle imbibe de sang un mouchoir en quelques secondes."]
+    ],
+    [
+        63,
+        "Montrez sur le tableau de bord le voyant indiquant une baisse de pression d’air d’un pneumatique.",
+        ["./img/063.png", "Pour info: obligatoire sur tous les véhicules neufs mis en circulation à compter du 01/11/2014."],
+        "A quelle fréquence est-il préconisé de vérifier la pression d’air des pneumatiques ?",
+        ["Tous les mois."],
+        "Qu’est ce qu’un arrêt cardiaque ?",
+        ["Le cœur ne fonctionne plus ou fonctionne d’une façon anarchique."]
+    ],
+    [
+        64,
+        "Procédez à l’ouverture du capot puis à sa fermeture en vous assurant de son verrouillage.",
+        ["./img/064.jpeg"],
+        "Pour un capot s’ouvrant depuis l’avant du véhicule, quelle est l’utilité du dispositif de sécurité ?",
+        ["Empêcher l’ouverture du capot en circulation en cas de mauvais verrouillage."],
+        "Quels sont les risques pour une personne victime d’une hémorragie ?",
+        ["Entraîner pour la victime une détresse circulatoire ou un arrêt cardiaque."]
+    ],
+    [
+        65,
+        "Montrez la commande de réglage de hauteur des feux.",
+        ["./img/065.jpeg"],
+        "Pourquoi doit-on régler la hauteur des feux ?",
+        ["Pour ne pas éblouir les autres usagers."],
+        "Comment et pourquoi protéger une zone de danger en cas d’accident de la route ?",
+        ["En délimitant clairement et largement la zone de danger de façon visible pour protéger le victimes et éviter un sur-accident."]
+    ],
+    [
+        66,
+        "Montrez où se situent les gicleurs de lave-glace avant.",
+        ["./img/066.jpeg"],
+        "Quelle est la principale conséquence d’un dispositif de lave-glace défaillant ?",
+        ["Une mauvaise visibilité due à l’impossibilité de nettoyer le pare-brise."],
+        "Qu’est ce qu’un défibrillateur automatisé externe (DAE) ?",
+        ["C’est un appareil qui peut permettre de rétablir une activité cardiaque normale à une victime en arrêt cardiaque."]
+    ],
+    [
+        67,
+        "Mettez le rétroviseur intérieur en position « nuit ».",
+        ["./img/067.jpeg", "Si le véhicule possède un système automatique de mise en position « nuit » du rétroviseur intérieur, le candidat l’indique."],
+        "Quel est l’intérêt de la position nuit ?",
+        ["Ne pas être ébloui par les feux du véhicule suiveur."],
+        "Comment est composé le signal d’alerte du Système d’Alerte et d’Information des Populations (SAIP) diffusé par les sirènes ?",
+        ["Il se compose de deux codes distincts : – le Signal National d’Alerte (SNA), variation du signal sur trois cycles successifs. – Le signal de fin d’alerte, signal continu."]
+    ],
+    [
+        68,
+        "Contrôlez l’état du flanc sur l’un des pneumatiques.",
+        ["./img/068.jpeg", "En bon état (toute anomalie doit être signalée)."],
+        "Citez un endroit où l’on peut trouver les pressions préconisées pour les pneumatiques ?",
+        ["Elles sont indiquées : – soit sur une plaque sur une portière. – soit dans la notice d’utilisation du véhicule. – soit au niveau de la trappe à carburant."],
+        "Sur autoroute, comment indiquer avec précision les lieux de l’accident depuis un téléphone portable ?",
+        ["En indiquant le numéro de l’autoroute, le sens de circulation et le point kilométrique."]
+    ],
+    [
+        69,
+        "Faites fonctionner les essuie-glaces avants du véhicule sur la position la plus rapide.",
+        ["./img/069.jpeg"],
+        "Comment détecte-t-on leur usure en circulation ?",
+        ["En cas de pluie, lorsqu’ils laissent des traces sur le pare brise."],
+        "Comment vérifier la respiration d’une victime ?",
+        ["Regarder si le ventre et la poitrine se soulèvent et sentir de l’air à l’expiration."]
+    ],
+    [
+        70,
+        "Montrez où s’effectue le contrôle du niveau du liquide de frein.",
+        ["./img/008.jpeg", "Le candidat montre que le niveau est entre le mini et le maxi. Si le candidat a des difficultés pour ouvrir le capot, l’accompagnateur peut lui indiquer comment procéder."],
+        "Quelle est la conséquence d’un niveau insuffisant du liquide de frein ?",
+        ["Une perte d’efficacité du freinage."],
+        "En cas de panne ou d’accident, quel équipement de sécurité doit être porté avant de quitter le véhicule ?",
+        ["Il faut porter le gilet de haute visibilité avant de sortir du véhicule. Le terme  « gilet jaune » peut être utilisé par le candidat."]
+    ],
+    [
+        71,
+        "Vérifiez la présence du gilet de haute visibilité  « gilet jaune ».",
+        ["Dans la boite à gant. Le candidat doit montrer où il se trouve sans obligation de le sortir."],
+        "En cas de panne ou d’accident, quel autre accessoire de sécurité est obligatoire ?",
+        ["Le triangle de pré-signalisation."],
+        "Si un dégagement d’urgence de la victime est nécessaire, où doit- elle être déplacée ?",
+        ["Dans un endroit suffisamment éloigné du danger et de ses conséquences."]
+    ],
+    [
+        72,
+        "Montrez où s’effectue le remplissage du liquide de refroidissement.",
+        ["./img/012.jpeg"],
+        "Quel est le danger si l’on complète le niveau du liquide lorsque le moteur est chaud ?",
+        ["Un risque de brûlure."],
+        "Comment arrêter une hémorragie ?",
+        ["En appuyant fortement sur l’endroit qui saigne avec les doigts ou avec la paume de la main en mettant un tissu propre sur la plaie."]
+    ],
+    [
+        73,
+        "Actionnez le dégivrage de la lunette arrière et montrez le voyant ou le repère correspondant.",
+        ["./img/013.jpeg"],
+        "Quelle peut être la conséquence d’une panne de dégivrage de la lunette arrière ?",
+        ["L’insuffisance ou l’absence de visibilité vers l’arrière."],
+        "Hors autoroute ou endroit dangereux, en cas de panne ou d’accident, où doit être placé le triangle de pré-signalisation ?",
+        ["Le triangle de pré-signalisation doit être placé à une distance d’environ 30 m de la panne ou de l’accident, ou avant un virage, ou un sommet de côte."]
+    ],
+    [
+        74,
+        "Contrôlez l’état, la propreté et le fonctionnement de tous les clignotants côté trottoir.",
+        ["./img/014.png", "Vérification des clignotants, propres, en bon état et fonctionnent (toute anomalie doit être signalée)."],
+        "Quelle est la signification d’un clignotement plus rapide ?",
+        ["Non fonctionnement de l’une des ampoules."],
+        "Quelles sont les précautions à prendre pour réaliser le dégagement d’urgence d’une victime en présence d’un danger réel, immédiat et non contrôlable ?",
+        ["La victime doit être visible, facile à atteindre et rien ne doit gêner son dégagement. Il faut être sûr(e) de pouvoir réaliser le dégagement de la victime."]
+    ],
+    [
+        75,
+        "Montrez le voyant d’alerte signalant une pression insuffisante d’huile dans le moteur.",
+        ["./img/015.png"],
+        "Quelles sont les conditions à respecter pour compléter le niveau d’huile ?",
+        ["Moteur froid et sur un terrain plat."],
+        "Quelles sont les trois informations à transmettre aux services de secours ?",
+        ["Le numéro de téléphone à partir duquel l’appel est émis, la nature et la localisation la plus précise du problème."]
+    ],
+    [
+        76,
+        "Contrôlez l’état, la propreté et le fonctionnement des feux de détresse à l’avant et à l’arrière.",
+        ["./img/031.jpeg", "Vérification des feux, propres, en bon état et fonctionnent (toute anomalie doit être signalée)."],
+        "Dans quels cas doit-on les utiliser ?",
+        ["En cas de panne, d’accident ou de ralentissement important."],
+        "Dans quel cas peut-on positionner une victime en Position Latérale de Sécurité (PLS) ?",
+        ["Si la victime ne répond pas, ne réagit pas et respire."]
+    ],
+    [
+        77,
+        "Vérifiez la présence de l’éthylotest.",
+        ["Dans la boite à gants."],
+        "A partir de quel taux d’alcoolémie, en période de permis probatoire, est-on en infraction ?",
+        ["0,2 g /l, c’est à dire 0 verre, car dès le 1er verre ce seuil peut être dépassé."],
+        "Quel comportement doit-on adopter en présence d’une victime en arrêt cardiaque ?",
+        ["– ALERTER: alerter immédiatement les secours. – MASSER: pratiquer une réanimation cardio-pulmonaire. – DEFIBRILLER: utiliser un défibrillateur automatique (DAE) si possible."]
+    ],
+    [
+        78,
+        "Contrôlez l’état, la propreté et le fonctionnement des feux de route.",
+        ["./img/020bis.jpeg", "Vérification des feux, propres, en bon état et fonctionnent (toute anomalie doit être signalée)."],
+        "Citez un cas d’utilisation d’un appel lumineux.",
+        ["– Pour avertir de son approche. – En cas de danger. – A la place de l’avertisseur sonore."],
+        "En cas de panne ou d’accident, quel équipement de sécurité doit être porté avant de quitter le véhicule ?",
+        ["Il faut porter le gilet de haute visibilité avant de sortir du véhicule. Le terme  » gilet jaune » peut être utilisé par le candidat."]
+    ],
+    [
+        79,
+        "Positionnez la commande pour diriger l’air vers le pare-brise.",
+        ["./img/021.jpeg"],
+        "Citez deux éléments complémentaires permettant un désembuage efficace ?",
+        ["– La commande de vitesse de ventilation. – La commande d’air chaud. – La climatisation."],
+        "Quel est l’objectif du Signal d’Alerte et d’Information des Populations (SAIP) ?",
+        ["Avertir la population d’un danger imminent ou qu’un événement grave est en train de se produire."]
+    ],
+    [
+        80,
+        "Montrez où doit s’effectuer le contrôle du niveau d’huile moteur.",
+        ["./img/022.jpeg"],
+        "Quel est le principal risque d’un manque d’huile moteur ?",
+        ["Un risque de détérioration ou de casse du moteur."],
+        "Comment est diffusée l’alerte émise par Le Signal d’Alerte et d’Information aux Populations (SAIP) ?",
+        ["Grâce aux sirènes, aux médias tels que Radio France et France Télévision ou encore grâce à l’application SAIP."]
+    ],
+    [
+        81,
+        "De quelle couleur est le voyant qui indique une défaillance du système de freinage ?",
+        ["./img/025.png"],
+        "Quel est le risque de circuler avec un frein de parking mal desserré ?",
+        ["Une dégradation du système de freinage."],
+        "En général, en cas de panne ou d’accident, où doit être placé le triangle de pré-signalisation ?",
+        ["Le triangle de pré-signalisation doit être placé à une distance d’environ 30m de la panne ou de l’accident, ou avant un virage ou un sommet de côte."]
+    ],
+    [
+        82,
+        "Contrôlez l’état, la propreté et le fonctionnement des feux de croisement.",
+        ["./img/026.jpeg"],
+        "Quelles sont les conséquences d’un mauvais réglage de ces feux ?",
+        ["Une mauvaise vision vers l’avant et un risque d’éblouissement des autres usagers."],
+        "Dans quelle situation peut-on déplacer une victime ?",
+        ["En présence d’un danger réel, immédiat, non contrôlable. Ce déplacement doit rester exceptionnel."]
+    ],
+    [
+        83,
+        "Montrez le voyant d’alerte signalant une température trop élevée du liquide de refroidissement.",
+        ["./img/027.png"],
+        "Quelle est la conséquence d’une température trop élevée de ce liquide ?",
+        ["La surchauffe ou la casse moteur."],
+        "Lors d’un appel avec les services de secours, pourquoi devez-vous attendre que votre correspondant vous autorise à raccrocher ?",
+        ["Car il peut nous conseiller ou nous guider dans la réalisation des gestes à faire, ou ne pas faire, jusqu’à l’arrivée des secours."]
+    ],
+    [
+        84,
+        "Sur le flanc d’un pneumatique, désignez le repère du témoin d’usure de la bande de roulement.",
+        ["./img/032ter.jpeg", "TWI ou logo Michelin ou triangle"],
+        "Qu’est-ce que l’aquaplanage, et quelle peut être sa conséquence ?",
+        ["La présence d’un film d’eau entre le pneumatique et la chaussée pouvant entraîner une perte de contrôle du véhicule."],
+        "Si un dégagement d’urgence de la victime est nécessaire, où doit- elle être déplacée ?",
+        ["Dans un endroit suffisamment éloigné du danger et de ses conséquences."]
+    ],
+    [
+        85,
+        "Actionnez les feux de détresse.",
+        ["./img/031.jpeg"],
+        "Dans quels cas doit-on les utiliser ?",
+        ["En cas de panne, d’accident ou de ralentissement important."],
+        "Quels comportements adopter en cas de diffusion du signal d’alerte du Système d’Alerte et d’Information des Populations (SAIP) ?",
+        ["– Se mettre en sécurité. – S’informer grâce aux médias et sites internet des autorités dès que leur consultation est possible. – Respecter les consignes des autorités."]
+    ],
+    [
+        86,
+        "A l’aide de la plaque indicative, donnez la pression préconisée pour les pneumatiques arrières, véhicule chargé.",
+        ["./img/086.jpeg"],
+        "A quelle fréquence est-il préconisé de vérifier la pression des pneus ?",
+        ["Chaque mois pour une utilisation normale de son véhicule et avant chaque long trajet."],
+        "Comment et pourquoi protéger une zone de danger en cas d’accident de la route ?",
+        ["En délimitant clairement et largement la zone de danger de façon visible pour protéger les victimes et éviter un sur-accident."]
+    ],
+    [
+        87,
+        "Montrez la commande permettant de désactiver l’airbag du passager avant.",
+        ["./img/037.jpeg"],
+        "Dans quelle situation doit-on le désactiver ?",
+        ["Lors du transport d’un enfant dans un siège auto dos à la route."],
+        "Quelles sont les conditions pour raliser le dégagement d’ugence d’une victime en préence d’un danger réel, immédiat et non contrôlable ?",
+        ["La victime doit être visible, facile à atteindre et rien ne doit gêner son dégagement. Il faut être sûr(e) de pouvoir réaliser le dégagement de la victime."]
+    ],
+    [
+        88,
+        "Indiquez où se situe la sécurité enfant sur l’une des portières à l’arrière du véhicule.",
+        ["./img/042.jpeg"],
+        "Si la sécurité enfant est enclenchée, est-il possible d’ouvrir la portière arrière depuis l’extérieur ?",
+        ["Oui."],
+        "Quels sont les risques pour une personne victime d’une hémorragie ?",
+        ["Entraîner pour la victime une détresse circulatoire ou un arrêt cardiaque."]
+    ],
+    [
+        89,
+        "Montrez le voyant signalant l’absence de bouclage de la ceinture de sécurité du conducteur.",
+        ["./img/039.png"],
+        "En règle générale, à partir de quel âge un enfant peut il être installé sur le siège passager avant du véhicule ?",
+        ["10 ans."],
+        "Comment est composé le signal d’alerte du Système d’Alerte et d’Information des Populations (SAIP) diffusé par les sirènes ?",
+        ["Il se compose de deux codes distincts : – le Signal National d’Alerte (SNA), variation du signal sur trois cycles successifs. – Le signal de fin d’alerte, signal continu."]
+    ],
+    [
+        90,
+        "Avec l’assistance de l’accompagnateur, contrôlez l’état, la propreté et le fonctionnement de feux de stop.",
+        ["Vérification des feux, propres, en bon état et fonctionnent (toute anomalie doit être signalée)."],
+        "Quelle est la conséquence en cas de panne des feux de stop ?",
+        ["Un manque d’information pour les usagers suiveurs et un risque de collision."],
+        "Lors d’un appel avec les services de secours, pourquoi devez-vous attendre que votre correspondant vous autorise à raccrocher ?",
+        ["Car il peut nous conseiller ou nous guider dans la réalisation des gestes à faire, ou ne pas faire, jusqu’à l’arrivée des secours."]
+    ],
+    [
+        91,
+        "Allumez le(s) feu(x) de brouillard arrière(s) et montrez le voyant correspondant.",
+        ["./img/016bis.jpeg", "Vérification des feux, propres,en bon état et fonctionnent (toute anomalie doit être signalée)."],
+        "Pouvez-vous les utiliser par forte pluie ?",
+        ["Non."],
+        "Quels sont les signes d’un arrêt cardiaque ?",
+        ["La victime ne répond pas, ne réagit pas et ne respire pas, ou présente une respiration anormale."]
+    ],
+    [
+        92,
+        "Vérifiez l’état, la propreté et le fonctionnement des feux diurnes.",
+        ["Vérification des feux, propres, en bon état et fonctionnent (toute anomalie doit être signalée)."],
+        "Quelle est leur utilité ?",
+        ["Rendre le véhicule plus visible le jour."],
+        "A quel moment pouvez-vous mettre fin à un appel avec les secours ?",
+        ["Uniquement lorsque notre correspondant nous invite à le faire."]
+    ],
+    [
+        93,
+        "Montrez la commande de recyclage de l’air.",
+        ["./img/049.jpeg"],
+        "Quel peut être le risque de maintenir le recyclage de l’air de manière prolongée ?",
+        ["Un risque de mauvaise visibilité par l’apparition de buée sur les surfaces vitrées."],
+        "Quels sont les risques pour une personne en perte de connaissance qui est allongée sur le dos ?",
+        ["L’arrêt respiratoire et l’arrêt cardiaque."]
+    ],
+    [
+        94,
+        "Vérifiez la présence du triangle de pré-signalisation.",
+        ["Il est présent dans le coffre."],
+        "Utilise-t-on le triangle de pré- signalisation sur autoroute ?",
+        ["Non."],
+        "Quel comportement doit-on adopter en présence d’une victime en arrêt cardiaque ?",
+        ["– ALERTER: alerter immédiatement les secours. – MASSER: pratiquer une réanimation cardio-pulmonaire. – DEFIBRILLER: utiliser un défibrillateur automatique (DAE) si possible."]
+    ],
+    [
+        95,
+        "Allumez les feux de route et montrez le voyant correspondant.",
+        ["./img/020bis.jpeg"],
+        "Quel est le risque de maintenir les feux de route lors d’un croisement avec d’autres usagers ?",
+        ["Un risque d’éblouissement des autres usagers."],
+        "Quel est l’objectif du Signal d’Alerte et d’Information des Populations (SAIP) ?",
+        ["Avertir la population d’un danger imminent ou qu’un événement grave est en train de se produire."]
+    ],
+    [
+        96,
+        "Montrez où s’effectue le changement d’une ampoule à l’avant du véhicule.",
+        ["./img/056.png"],
+        "Quelles sont les conséquences en cas de panne d’un feu de croisement ?",
+        ["Une mauvaise visibilité et le risque d’être confondu avec un deux roues."],
+        "Citez les trois manières d’évaluer l’état de conscience d’une victime ?",
+        ["– Lui poser des questions simples (« comment ça va ? », « vous m’entendez ? »). – Lui secouer doucement les épaules. – Lui prendre la main en lui demandant d’exécuter un geste simple (« serrez-moi la main »)."]
+    ],
+    [
+        97,
+        "Faites fonctionner l’essuie-glace arrière du véhicule.",
+        ["./img/059.jpeg"],
+        "Pour une bonne visibilité vers l’arrière, en plus de l’utilisation de l’essuie-glace, quelle commande pouvez-vous actionner par temps de pluie ?",
+        ["La commande de désembuage arrière. Le terme dégivrage peut remplacer celui de désembuage."],
+        "Quels comportements adopter en présence d’une victime qui ne répond pas et ne réagit pas, mais respire ?",
+        ["– La placer en position stable sur le côté ou position latérale de sécurité. – Alerter les secours. – Surveiller la respiration de la victime jusqu’à l’arrivée des secours."]
+    ],
+    [
+        98,
+        "Montrez où s’effectue le changement d’une ampoule à l’arrière du véhicule.",
+        ["./img/058.jpeg"],
+        "Quelles sont les conséquences en cas de panne d’un feu de position arrière ?",
+        ["Être mal vu et un risque de collision."],
+        "Comment est diffusée l’alerte émise par le Signal d’Alerte et d’Information aux Populations (SAIP) ?",
+        ["Grâce aux sirènes, aux médias tels que Radio France et France Télévision ou encore grâce à l’application SAIP."]
+    ],
+    [
+        99,
+        "Montrez le voyant indiquant une baisse de pression d’air d’un pneumatique ?",
+        ["./img/063.png", "Pour info : obligatoire sur tous les véhicules neufs mis en circulation à compter du 01/11/2014."],
+        "A quelle fréquence est-il préconisé de vérifier la pression d’air des pneumatiques ?",
+        ["Tous les mois."],
+        "Qu’est ce qu’un arrêt cardiaque ?",
+        ["Le cœur ne fonctionne plus ou fonctionne d’une façon anarchique."]
+    ],
+    [
+        100,
+        "Montrez où se situent les gicleurs de lave-glace avant ?",
+        ["./img/066.jpeg"],
+        "Quelle est la principale conséquence d’un dispositif de lave-glace défaillant ?",
+        ["Une mauvaise visibilité due à l’impossibilité de nettoyer le pare-brise."],
+        "Qu’est ce qu’un défibrillateur automatisé externe (DAE) ?",
+        ["C’est un appareil qui peut permettre de rétablir une activité cardiaque normale à une victime en arrêt cardiaque."]
+    ],
 ]
 
 function naviguerQuestions(x) {
